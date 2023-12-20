@@ -1,87 +1,166 @@
 ### Step 2A
+/c/Users/17045
 
 
 ### Step 2B
+17045@JP MINGW64 ~/Desktop
 
 
 ### Step 2C
+cd unit1-git-practice
 
 
 ### Step 2D
+17045@JP MINGW64 ~/Desktop/unit1-git-practice
 
 
 ### Step 2E
+$ ls
 
 
 ### Step 2F
+my-steps.txt
 
 
 ### Step 2G
+$ cd ~
 
 
 ### Step 2H
+/c/Users/17045
 
 
 ### Step 2I
 
+'3D Objects'/
+ AppData/
+'Application Data'@
+'Calibre Library'/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Microsoft/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Sti_Trace.log
+ Templates@
+ Videos/
+ anaconda3/
+ ansel/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
 
 ### Step 2J
+17045@JP MINGW64 ~/Desktop
 
 
 ### Step 2K
-
+$ cd unit1-git-practice
 
 
 ### Step 3A
-
+mkdir viggies
+mkdir meats
+mkdir desserts
 
 ### Step 3B
-
+mv desserts sweets
 
 ### Step 3C
-
+mkdir protiens
 
 ### Step 3D
-
+mv meats protiens
 
 ### Step 3E
-
+cd veggies
+touch carrot.txt
+touch pea.txt
 
 ### Step 3F
-
+cd ..
+cd sweets
+touch cookie.txt
 
 ### Step 3G
-
+mv cookie.txt donut.txt
 
 ### Step 3H
-
+cd ..
+touch thing.txt
 
 ### Step 3I
-
+cp thing.txt tofu.txt
 
 ### Step 3J
-
+mv tofu.txt protiens
 
 ### Step 3K
-
+cp thing.txt crab.txt
+mv crab.txt protiens
+cd protiens
+mv crab.txt meats
 
 ### Step 3L
-
+cd ..
+rm thing.txt
 
 ### Step 3M
-
+cp -r veggies plants
 
 ### Step 3N
-
-
+mkdir drinks
+rm -r drinks
 
 ### Step 4
-
+cd Desktop
+cd unit1-git-practice
+git init
+Initialized empty Git repository in C:/Users/17045/Desktop/unit1-git-practice/.git/
+git add .
+warning: in the working copy of 'my-steps.txt', LF will be replaced by CRLF the next time Git touches it
+git commit -m 'first commit'
+[master (root-commit) 536fd3e] first commit
+ 8 files changed, 88 insertions(+)
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 protiens/meats/crab.txt
+ create mode 100644 protiens/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
 
 ### Step 5
-
+git remote add origin https://github.com/JayP-97/unit1-git-practice.git
 
 ### Step 6
+touch menu.txt
+git status
+git add .
+git commit -m 'update 1.1 added menu.txt'
+git push
 
 
 ### Step 7
